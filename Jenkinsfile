@@ -3,7 +3,7 @@
     stages{  
      stage('Flaky Test') {
     steps {
-        sh 'node flaky-test.js'
+        sh 'node test.js'
     }
 }
    }
