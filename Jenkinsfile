@@ -5,6 +5,7 @@
     steps {
         sh 'node test.js'
        echo "pipeline is triggred from web hook"
+       echo "checking error"
     }
 }
    }
