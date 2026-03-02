@@ -4,6 +4,7 @@
      stage('Flaky Test') {
     steps {
         sh 'node test.js'
+        echo "/webhook"
     }
 }
    }
